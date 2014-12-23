@@ -1,10 +1,10 @@
-(module 7SegmentLED_SBC18-11EGWA_16Sep2013 (layer F.Cu)
+(module 7SegmentLED_SBC18-11EGWA (layer F.Cu)
   (at 0 0)
-  (fp_text reference U (at 0 -33) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference 7SegmentLED_SBC18-11EGWA (at 0 -33) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 7SegmentLED_SBC18-11EGWA_16Sep2013 (at -1 31) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at -1 31) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 15.5 25.3) (end 15.9 25) (layer F.SilkS) (width 0.15))
   (fp_line (start 15.9 25) (end 16.3 25) (layer F.SilkS) (width 0.15))
@@ -149,7 +149,7 @@
   (pad 8 thru_hole oval (at 0 -24.13) (size 1.524 2.524) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole oval (at -2.54 -24.13) (size 1.524 2.524) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole oval (at -5.08 -24.13) (size 1.524 2.524) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (model 7Segment_HDSM531_HDSM533_Wings3D_RevA_17Sep2013/7Segment_SBC18-11EGWA_Faktor03937_Wings3D_RevA_22Sep2013.wrl
+  (model Displays_7-Segment/7SegmentLED_SBC18-11EGWA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
