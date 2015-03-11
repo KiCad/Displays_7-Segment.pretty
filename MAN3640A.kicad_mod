@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Module for the MAN3640 7 segm display")
   (tags DIL)
-  (fp_text reference MAN3640A (at 11.43 0 90) (layer F.SilkS)
+  (fp_text reference REF** (at 11.43 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -11.43 0 90) (layer F.SilkS)
+  (fp_text value MAN3640A (at -11.43 0 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 2.032) (end -5.715 2.032) (layer F.SilkS) (width 0.15))
@@ -28,7 +28,7 @@
   (pad 12 thru_hole circle (at -2.54 -3.81) (size 1.6764 1.6764) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 13 thru_hole circle (at -5.08 -3.81) (size 1.6764 1.6764) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 14 thru_hole circle (at -7.62 -3.81) (size 1.6764 1.6764) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model Displays_7-Segment/MAN3640A.wrl
+  (model Displays_7-Segment.3dshapes/MAN3640A.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

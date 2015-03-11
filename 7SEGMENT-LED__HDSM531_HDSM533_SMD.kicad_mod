@@ -1,9 +1,9 @@
 (module 7SEGMENT-LED__HDSM531_HDSM533_SMD (layer F.Cu) (tedit 54710158)
   (attr smd)
-  (fp_text reference 7SEGMENT-LED__HDSM531_HDSM533_SMD (at -7.7 -4.525) (layer F.SilkS)
+  (fp_text reference REF** (at -7.7 -4.525) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0.025 13.95) (layer F.SilkS) hide
+  (fp_text value 7SEGMENT-LED__HDSM531_HDSM533_SMD (at 0.025 13.95) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 3.825 6.075) (end 3.925 6.75) (layer F.SilkS) (width 0.15))
@@ -36,7 +36,7 @@
     (solder_paste_margin -0.2))
   (pad 10 smd rect (at -4.9 -9.5) (size 1.8 3) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.2))
-  (model Displays_7-Segment/7SEGMENT-LED__HDSM531_HDSM533_SMD.wrl
+  (model Displays_7-Segment.3dshapes/7SEGMENT-LED__HDSM531_HDSM533_SMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
